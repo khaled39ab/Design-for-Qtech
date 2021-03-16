@@ -1,0 +1,90 @@
+/*Instruction Need to follow*/
+
+/*
+
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+### Primary
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+*/
+
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 90px 0 80px 0; 
+    background: hsl(0, 0%, 98%)
+}
+#content-section  h3{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%)
+}
+#content-section  h2{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+#content-section  p{
+    color: hsl(229, 6%, 66%);;
+}
+
+.box-style{
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 4px 13px 29px -10px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 4px 13px 29px -10px rgba(0,0,0,0.42);
+    -moz-box-shadow: 4px 13px 29px -10px rgba(0,0,0,0.42);
+}
+
+
+.box-style{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-origin: content-box;
+    background-image: url('images/icon-supervisor.svg');
+}
+.supervisor.box-style{
+    border-top: 5px solid hsl(180, 62%, 55%);   
+}
+.team-builder.box-style{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-image: url('images/icon-team-builder.svg');
+}
+.karma.box-style{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    background-image: url('images/icon-karma.svg');
+}
+.calculator.box-style{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    background-image: url('images/icon-calculator.svg');
+}
+
+#boxes h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+#boxes p{
+    color: hsl(229, 6%, 66%);
+}
+
+@media(max-width:1024px){
+    section{
+        padding: 0 20px;
+    }
+    .box-style{
+        height: 220px;
+    }
+}
